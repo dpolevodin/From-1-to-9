@@ -1,6 +1,5 @@
-num = int(input('Введите число от 0 до 10'))
-while num < 1 and num > 9:
-    print('Incorrect')
-    num = int(input('Введите число от 0 до 10'))
+num = int(input('Введите число от 0 до 10:     '))
+while num < 1 or num > 9:
+    num = int(input('Число должно быть в промежутке от 0 до 10. Попробуй ещё раз:   '))
 else:
     print('Correct')
